@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    color: #fff
+    
+}
+
+h1 {
+    /* font */
+    font-family: "Urbanist", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    font-variant: small-caps;
+    
+    /* text in CSS */
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-transform: capitalize;
+}
+
+p{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    text-shadow: 2px 2px 2px orange;
+
+}
+
+a{
+    font-family: "Urbanist", sans-serif;
+    color: red;
+    text-decoration: none;
+
+}
